@@ -1,11 +1,18 @@
 import './App.css';
+import Chat from './Chat';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Whtasapp MERN</h1>
+    <div className="app">
+      <div className="app__body">
+
+        <Sidebar/>
+        <Chat/>
+
+      </div>
     </div>
   );
 }
-
+ 
 export default App;
